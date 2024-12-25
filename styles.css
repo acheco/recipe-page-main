@@ -35,6 +35,7 @@ h1 {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 24px;
     color: var(--brown-800);
 }
 
@@ -91,11 +92,12 @@ li::marker, .brownRow {
     border-radius: 10px;
 }
 
-.recipe-preparation h3 {
+.recipe-preparation h2 {
+    font-size: 20px;
     margin-top: 0;
 }
 
-.recipe-preparation > h3, .recipe-preparation li::marker {
+.recipe-preparation > h2, .recipe-preparation li::marker {
     color: var(--rose-800);
 }
 
